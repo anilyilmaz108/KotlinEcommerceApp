@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/background_item_layout.xml" value="0.1575" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/background_user.xml" value="0.1575" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/custom_email_icon.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/custom_input.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/custom_lock_icon.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_card_giftcard_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_email.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_email_focused.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_home_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_lock.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_lock_focused.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_logout_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_person_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_baseline_remove_shopping_cart_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/button_background_color.xml" value="0.1575" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/button_text_color.xml" value="0.1575" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/circle_button.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_cloud_24.xml" value="0.1245" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_visibility_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/list_selector_background.xml" value="0.1575" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/password_icon.xml" value="0.1395" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/drawable/rounded_corner.xml" value="0.1245" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/activity_base.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/alert_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/card_product.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/fragment_card.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/fragment_detail.xml" value="0.2" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/fragment_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/notification.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/layout/row_product.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/ASUS/Desktop/eticaret/eticaret/app/src/main/res/menu/bottom_menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

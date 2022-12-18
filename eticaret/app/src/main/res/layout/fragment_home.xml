@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+
+    <ScrollView
+        android:id="@+id/filterScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:id="@+id/filterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="4dp"
+            android:orientation="horizontal"
+            android:isScrollContainer="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/filterAllText"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:background="@drawable/rounded_corner"
+                android:gravity="center"
+                android:text="All"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/filterSmartphoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Phone"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/filterTabletText"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Tablet"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/filterWatchText"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Watch"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/filterEarphoneText"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/rounded_corner"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:text="Earphone"
+                android:textSize="16dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_Rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filterScroll" />
+</androidx.constraintlayout.widget.ConstraintLayout>

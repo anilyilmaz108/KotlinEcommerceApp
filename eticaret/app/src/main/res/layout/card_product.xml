@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewProduct"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="4dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/imageViewlogo"
+                android:layout_width="144dp"
+                android:layout_height="177dp"
+                android:layout_marginTop="8dp"
+                android:contentDescription="TODO"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_baseline_cloud_24" />
+
+            <TextView
+                android:id="@+id/textViewFilmBaslik"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="Product"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewlogo" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFilmBaslik">
+
+                <Button
+                    android:id="@+id/buttonWhite"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/buttonBlack"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#000000" />
+
+                <Button
+                    android:id="@+id/buttonGreen"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#3C833F" />
+
+                <Button
+                    android:id="@+id/buttonPurple"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#AF42DD" />
+
+                <Button
+                    android:id="@+id/buttonPink"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#D33573" />
+
+                <Button
+                    android:id="@+id/buttonBlue"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#1976D2" />
+
+                <Button
+                    android:id="@+id/buttonGrey"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#8E8D8D" />
+
+                <Button
+                    android:id="@+id/buttonBeige"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#E19649" />
+
+                <Button
+                    android:id="@+id/buttonBurgundy"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/circle_button"
+                    android:gravity="center"
+                    android:padding="15dp"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:visibility="gone"
+                    app:backgroundTint="#81270B" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewFilmFiyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="14.99 ₺"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <Button
+                android:id="@+id/buttonSepeteEkle"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="ADD TO CARD"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textViewFilmFiyat" />
+
+            <LinearLayout
+                android:id="@+id/pieceLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="4dp"
+                android:background="#F1EEEE"
+                android:orientation="vertical"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Button
+                    android:id="@+id/buttonAdd"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_add_24"
+                    android:gravity="center"
+                    app:backgroundTint="#303F9F" />
+
+                <TextView
+                    android:id="@+id/pieceText"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@color/purple_700"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/white"
+                    android:textSize="14dp" />
+
+                <Button
+                    android:id="@+id/buttonRemove"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_remove_24"
+                    android:gravity="center"
+                    app:backgroundTint="#303F9F" />
+
+                <Button
+                    android:id="@+id/buttonCheck"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_check_24"
+                    android:gravity="center"
+                    app:backgroundTint="#2DB633" />
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
