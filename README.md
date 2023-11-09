@@ -10,6 +10,7 @@
 - Picasso
 - Room
 - LiveData
+- Nodejs
 
 After node js is installed, you can run the api with the node index.js command from the project directory. The API runs on the localhost:8006 port.
 
